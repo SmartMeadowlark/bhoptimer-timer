@@ -1,0 +1,133 @@
+"Phrases"
+{
+	"ReplayFileInfo"
+	{
+		"#format"	"{1:s},{2:d},{3:s},{4:0x},{5:s},{6:d},{7:d},{8:d},{9:d},{10:f},{11:u},{12:d},{13:f},{14:f},{15:f},{16:d}"
+		"en"		"File: {1} ({2} Bytes)\nFormat: {3}\nVersion: {4}\nMap: {5}\nStyle: {6}\nTrack: {7}\nPreframes: {8}\nFramecount: {9}\nTime: {10}\nAccountID: {11}\nPostframes: {12}\nTickrate: {13}\nZoneoffsets: {14}/{15}\nTimestamp: {16}"
+	}
+	"ReplayFileNotFound"
+	{
+		"#format"	"{1:s}"
+		"en"		"File not found. ({1})"
+	}
+	"FailedToReadReplayHeader"
+	{
+		"en"		"Failed to read replay header."
+	}
+	// ---------- Menus ---------- //
+	"DeleteReplayAdminMenu"
+	{
+		"en"		"Delete replay"
+	}
+	"DeleteReplayMenuTitle"
+	{
+		"en"		"Delete a replay:"
+	}
+	"MenuResponseNo"
+	{
+		"en"		"NO!"
+	}
+	"MenuResponseYes"
+	{
+		"en"		"Yes, I understand this action cannot be reversed!"
+	}
+	"ReplayDeletionConfirmation"
+	{
+		"#format"	"{1:s}"
+		"en"		"Confirm deletion of {1} replay?"
+	}
+	"ReplaysUnavailable"
+	{
+		"en"		"No replays available."
+	}
+	// ---------- Replay Deletion ---------- //
+	"ReplayDeleted"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Deleted replay for {1}{2}{3}."
+	}
+	"ReplayDeleteFailure"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Could not delete replay for {1}{2}{3}."
+	}
+	// ---------- Central Replay Menu ---------- //
+	"CentralReplayTitle"
+	{
+		"en"		"Select a replay style to play:"
+	}
+	"CentralReplayPlaying"
+	{
+		"en"		"The replay bot is busy, try again when it's idle."
+	}
+	"CentralReplayStop"
+	{
+		"en"		"Stop the current replay."
+	}
+	"CentralReplayStopped"
+	{
+		"en"		"Forcibly stopped replay."
+	}
+	"CentralReplayTrack"
+	{
+		"en"		"Select a track to play:"
+	}
+	"Replay_Central"
+	{
+		"en"		"!replay"
+	}
+	"Replay_Dynamic"
+	{
+		"en"		"Dynamic"
+	}
+	"Replay_Looping"
+	{
+		"en"		"Looping"
+	}
+	"Menu_ReplayBotType"
+	{
+		"en"		"Replay bot type:"
+	}
+	"Menu_Replay_Central"
+	{
+		"en"		"Central !replay bot"
+	}
+	"Menu_Replay_Dynamic"
+	{
+		"en"		"Spawn dynamic bot"
+	}
+	"Menu_Replay_Prop"
+	{
+		"en"		"Spawn physics prop bot"
+	}
+	"TooManyDynamicBots"
+	{
+		"en"		"Too many dynamic bots are playing. Can't spawn more."
+	}
+	"FailedToCreateReplay"
+	{
+		"en"		"Failed to create replay"
+	}
+	"Menu_Replay"
+	{
+		"en"		"Replay"
+	}
+	"Menu_SpawnReplay"
+	{
+		"en"		"Spawn replay"
+	}
+	"Menu_Replay2X"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{1}] Toggle 2x speed"
+	}
+	"Menu_PlaybackSpeed"
+	{
+		"#format"   "{1:.1f}"
+		"en"        "Playback speed: {1}x"
+	}
+	"Menu_RefreshReplay"
+	{
+		"en"		"Refresh"
+	}
+}
